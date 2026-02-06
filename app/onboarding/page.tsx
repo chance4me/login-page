@@ -1,3 +1,4 @@
+import { TrendingUp } from "lucide-react"
 export default function OnboardingPage() {
   return (
     <div className="min-h-screen bg-[#151721] from-black via-slate-900 to-black flex items-center justify-center px-4">
@@ -13,12 +14,12 @@ export default function OnboardingPage() {
 function Header() {
   return (
     <div className="text-center mb-8">
-      <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600">
-        📈
+      <div className="mx-auto mb-4 p-3 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600">
+        <TrendingUp className="h-5 w-5 text-white" />
       </div>
 
       <h1 className="text-2xl font-semibold text-white">
-        Welcome to SignalPro
+        Welcome to <span className="text-blue">SignalPro</span>
       </h1>
 
       <p className="text-sm text-slate-400">
